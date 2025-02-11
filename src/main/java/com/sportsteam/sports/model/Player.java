@@ -42,4 +42,13 @@ public class Player {
         isCaptain = captain;
     }
 
+    @Override
+    public String toString() {
+        return "Player{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", type='" + type + '\'' +
+                ", isCaptain=" + isCaptain +
+                '}';
+    }
 }
