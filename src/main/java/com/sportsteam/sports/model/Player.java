@@ -10,6 +10,13 @@ public class Player {
 
     Boolean isCaptain;
 
+    public Player(String name, int age, String type, Boolean isCaptain) {
+        this.name = name;
+        this.age = age;
+        this.type = type;
+        this.isCaptain = isCaptain;
+    }
+
     public String getName() {
         return name;
     }
