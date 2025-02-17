@@ -1,6 +1,13 @@
 package com.sportsteam.sports.model;
 
+import jakarta.persistence.*;
+
+@Entity
 public class Player {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", nullable = false)
+    private Long id;
 
     String name;
 
@@ -9,6 +16,17 @@ public class Player {
     String type;
 
     Boolean isCaptain;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Player() {
+    }
 
     public Player(String name, int age, String type, Boolean isCaptain) {
         this.name = name;
