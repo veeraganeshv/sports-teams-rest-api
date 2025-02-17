@@ -17,13 +17,7 @@ public class Player {
 
     Boolean isCaptain;
 
-    public Long getId() {
-        return id;
-    }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public Player() {
     }
@@ -33,6 +27,14 @@ public class Player {
         this.age = age;
         this.type = type;
         this.isCaptain = isCaptain;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getName() {

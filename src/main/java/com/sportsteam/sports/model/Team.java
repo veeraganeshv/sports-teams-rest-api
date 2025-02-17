@@ -15,13 +15,7 @@ public class Team {
 
     List<Player> players;
 
-    public Long getId() {
-        return id;
-    }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public Team() {
     }
@@ -29,6 +23,14 @@ public class Team {
     public Team(String teamName, List<Player> players) {
         this.teamName = teamName;
         this.players = players;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getTeamName() {
