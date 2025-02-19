@@ -17,8 +17,6 @@ public class Player {
 
     Boolean isCaptain;
 
-
-
     public Player() {
     }
 

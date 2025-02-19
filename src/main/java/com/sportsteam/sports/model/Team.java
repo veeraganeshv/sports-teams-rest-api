@@ -15,8 +15,6 @@ public class Team {
 
     List<Player> players;
 
-
-
     public Team() {
     }
 
