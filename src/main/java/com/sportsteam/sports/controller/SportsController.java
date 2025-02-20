@@ -6,5 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class SportsController {
 
     //sports controller
+    public String addPlayer() {
+        return "playaer successfully added";
+    }
 
 }
