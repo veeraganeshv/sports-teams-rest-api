@@ -8,7 +8,7 @@ public class SportsController {
     //sports controller
 
     public String addPlayer() {
-        return "playaer successfully added";
+        return "player successfully added";
     }
 
 }
