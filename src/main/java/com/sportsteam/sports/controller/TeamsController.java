@@ -18,6 +18,7 @@ public class TeamsController {
         return "team created";
     }
 
+    // get all the teams as list
     @GetMapping("/getAllTeams")
     public List<Team> getAllTeams() {
         return new ArrayList<>();
