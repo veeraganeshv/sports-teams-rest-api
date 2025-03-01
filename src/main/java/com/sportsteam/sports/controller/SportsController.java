@@ -17,6 +17,7 @@ public class SportsController {
     }
 
     // get all the players of a team as list
+
     @GetMapping
     public List<Player> getPlayers(String team) {
         return new ArrayList<>();
